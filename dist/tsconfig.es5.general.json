@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/tsconfig.json",
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2015"
+    ],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  }
+}

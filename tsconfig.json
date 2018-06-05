@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/tsconfig.json",
+  "extends": "./dist/tsconfig.es5.general.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDir": "."
+  },
+  "include": [
+    "scripts/*.ts",
+    "src/*.ts",
+    "src/**/*.ts",
+    "spec/*.ts",
+    "spec/**/*.ts"
+  ]
+}
